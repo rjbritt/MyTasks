@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Tasks</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="add_Item">Add new Entry</string>
+    <string name="title_activity_information">Information</string>
+    <string name="title_activity_add_item">AddItem</string>
+    <string name="curr_tasks">Current Tasks</string>
+    <string name="clear_tasks">Clear All Tasks</string>
+    <string name="info">Info</string>
+    <string name="name_field">Task Name</string>
+    <string name="due_date">Enter Due Date</string>
+    <string name="due_time">Enter Due Time</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="priority">Priority</string>
+    <string name="done">Done</string>
+    <string name="title_activity_time_picker_dialog">TimePickerDialog</string>
+    <string name="title_activity_date_picker_fragment">DatePickerFragment</string>
+    <string name="title_activity_show_task">ShowTask</string>
+    <string name="due_date_text">Due Date</string>
+    <string name="due_time_text">Due Time</string>
+    <string name="remove">Remove</string>
+    <string name="author">Author: Ryan Britt</string>
+    <string name="app_instructions">This app is used for managing tasks. Select &quot;Add a new task&quot; in order to do so. There, you will have the ability to add fields to the task. All fields must be completed before &quot;done&quot; is pressed. Otherwise, you will receive a red X on the screen and an error message at the bottom. When you have successfully completed all fields and press &quot;Done&quot;, you will receive a green check and the task will be added to the list. The task can be tapped on to see the details and delete if necessary. Otherwise, tap the &quot;back&quot; button to get back to the main screen.</string>
+    <string name="thanks">Acknowledgements: I would like to thank the people at websites such as www.stackoverflow.com and developer.android.com for assistance on problems with this app. I would like to thank DJ Edmonson, Nick Klein, Joshua Groppe, Trent Vigar, and Tyler McGough for conversations which helped inspire my solution for this app. I would also like to thank DJ Edmonson, whose Assignments I used to gain a large understanding of SQLite databases and creating interrelated databases in Android, and Joshua Groppe and Nick Klein for help with php webservices. </string>
+    <string name="title_activity_reports">Reports</string>
+    <string name="new_features">The 3 new features in this app are the tabs at the top, the reports in the second tab (powered by external database), and an audio clip playing when viewing the reports (It streams, so it may take a few seconds to load).</string>
+    <string name="title_activity_set_difficulty_time_estimate_fragment">Difficulty Time Estimate</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

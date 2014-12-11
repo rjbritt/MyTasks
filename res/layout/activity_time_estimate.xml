@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SetDifficultyTimeEstimateFragment" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="Set Estimated Time For Each Difficulty"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/easyDiffButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="20dp"
+        android:onClick="showDiff"
+        android:text="Easy" />
+
+    <Button
+        android:id="@+id/medDiffButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/easyDiffButton"
+        android:layout_below="@+id/easyDiffButton"
+        android:layout_marginTop="21dp"
+        android:onClick="showDiff"
+        android:text="Medium" />
+
+    <Button
+        android:id="@+id/hardDiffButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/medDiffButton"
+        android:layout_below="@+id/medDiffButton"
+        android:layout_marginTop="18dp"
+        android:onClick="showDiff"
+        android:text="Hard" />
+
+</RelativeLayout>
